@@ -1,23 +1,23 @@
 {
   "plugins": [
     {
-      "dependencies": null,
-      "id": "ViveTool",
-      "changelog": "Version 1.2.0 (2026-01-19)\n- Removed local plugin import functionality\n- Simplified plugin management\n- Improved UI and user experience\n- Fixed compatibility issues with Windows 11\n- Enhanced online plugin support",
-      "author": "Lenovo Legion Toolkit Team",
-      "minimumHostVersion": "2.0.0",
-      "releaseDate": "2026-01-19T00:00:00Z",
-      "fileHash": "",
-      "fileSize": 1230165,
-      "name": "ViveTool Plugin",
+      "version": "1.0.0",
       "tags": [
         "utility"
       ],
+      "fileSize": 1231442,
+      "name": "ViveTool Plugin",
+      "minimumHostVersion": "2.0.0",
+      "dependencies": null,
+      "downloadUrl": "https://github.com/Crs10259/LenovoLegionToolkit/releases/download/plugins/ViveTool/v1.0.0/ViveTool.zip",
+      "description": "ViveTool functionality for Lenovo Legion Toolkit",
+      "id": "ViveTool",
       "isSystemPlugin": false,
-      "downloadUrl": "https://github.com/Crs10259/LenovoLegionToolkit/releases/download/plugins/ViveTool/v1.2.0/ViveTool.zip",
-      "icon": "Apps24",
-      "version": "1.2.0",
-      "description": "ViveTool functionality for Lenovo Legion Toolkit"
+      "releaseDate": "2026-01-19T12:51:12Z",
+      "fileHash": "",
+      "changelog": "",
+      "author": "Lenovo Legion Toolkit Team",
+      "icon": "Apps24"
     },
     {
       "version": "1.2.0",
@@ -39,6 +39,6 @@
       "fileHash": ""
     }
   ],
-  "lastUpdated": "2026-01-19T00:00:00Z",
+  "lastUpdated": "2026-01-19T12:51:12Z",
   "storeVersion": "1.0.0"
 }
