@@ -1,23 +1,23 @@
 {
   "plugins": [
     {
+      "isSystemPlugin": false,
+      "releaseDate": "2026-01-19T13:00:32Z",
+      "name": "ViveTool Plugin",
+      "description": "ViveTool functionality for Lenovo Legion Toolkit",
+      "minimumHostVersion": "2.0.0",
+      "author": "Lenovo Legion Toolkit Team",
+      "changelog": "",
+      "icon": "Apps24",
+      "fileHash": "",
+      "fileSize": 1231729,
+      "downloadUrl": "https://github.com/Crs10259/LenovoLegionToolkit/releases/download/plugins/ViveTool/v1.0.0/ViveTool.zip",
+      "id": "ViveTool",
       "version": "1.0.0",
       "tags": [
         "utility"
       ],
-      "fileSize": 1231442,
-      "name": "ViveTool Plugin",
-      "minimumHostVersion": "2.0.0",
-      "dependencies": null,
-      "downloadUrl": "https://github.com/Crs10259/LenovoLegionToolkit/releases/download/plugins/ViveTool/v1.0.0/ViveTool.zip",
-      "description": "ViveTool functionality for Lenovo Legion Toolkit",
-      "id": "ViveTool",
-      "isSystemPlugin": false,
-      "releaseDate": "2026-01-19T12:51:12Z",
-      "fileHash": "",
-      "changelog": "",
-      "author": "Lenovo Legion Toolkit Team",
-      "icon": "Apps24"
+      "dependencies": null
     },
     {
       "version": "1.2.0",
@@ -39,6 +39,6 @@
       "fileHash": ""
     }
   ],
-  "lastUpdated": "2026-01-19T12:51:12Z",
+  "lastUpdated": "2026-01-19T13:00:32Z",
   "storeVersion": "1.0.0"
 }
