@@ -1317,6 +1317,15 @@ Yeniden başlatma gerektirir.</value>
   <data name="TryAgain" xml:space="preserve">
     <value>Tekrar deneyin</value>
   </data>
+  <data name="UnexpectedException_ExitPrompt" xml:space="preserve">
+    <value>Would you like to exit the application?</value>
+  </data>
+  <data name="UnexpectedException_Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="UnexpectedException_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <data name="UnexpectedException" xml:space="preserve">
     <value>Beklenmeyen bir istisna oluştu:
 {0}</value>

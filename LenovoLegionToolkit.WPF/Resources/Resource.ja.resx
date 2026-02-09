@@ -2434,6 +2434,15 @@ Requires restart.</value>
   <data name="ToggleHybridModeControl_RestartRequired_Message" xml:space="preserve">
     <value>Changing Hybrid Mode requires restart. Do you want to restart now?</value>
   </data>
+  <data name="UnexpectedException_ExitPrompt" xml:space="preserve">
+    <value>Would you like to exit the application?</value>
+  </data>
+  <data name="UnexpectedException_Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="UnexpectedException_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <data name="UnexpectedException" xml:space="preserve">
     <value>Unexpected exception occurred:
 {0}</value>

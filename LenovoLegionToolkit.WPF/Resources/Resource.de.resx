@@ -1375,6 +1375,15 @@ Erfordert einen Neustart.</value>
   <data name="TryAgain" xml:space="preserve">
     <value>Erneut versuchen</value>
   </data>
+  <data name="UnexpectedException_ExitPrompt" xml:space="preserve">
+    <value>Would you like to exit the application?</value>
+  </data>
+  <data name="UnexpectedException_Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="UnexpectedException_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <data name="UnexpectedException" xml:space="preserve">
     <value>Unerwartete Ausnahme aufgetreten:
 {0}</value>

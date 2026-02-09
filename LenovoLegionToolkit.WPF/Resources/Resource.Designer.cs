@@ -5487,6 +5487,33 @@ namespace LenovoLegionToolkit.WPF.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Would you like to exit the application?.
+        /// </summary>
+        public static string UnexpectedException_ExitPrompt {
+            get {
+                return ResourceManager.GetString("UnexpectedException_ExitPrompt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Continue.
+        /// </summary>
+        public static string UnexpectedException_Continue {
+            get {
+                return ResourceManager.GetString("UnexpectedException_Continue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exit.
+        /// </summary>
+        public static string UnexpectedException_Exit {
+            get {
+                return ResourceManager.GetString("UnexpectedException_Exit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Unnamed.
         /// </summary>
         public static string Unnamed {
@@ -9875,6 +9902,15 @@ namespace LenovoLegionToolkit.WPF.Resources {
         public static string PluginSettingsWindow_PluginNotFound {
             get {
                 return ResourceManager.GetString("PluginSettingsWindow_PluginNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        public static string ErrorDialogWindow_Error {
+            get {
+                return ResourceManager.GetString("ErrorDialogWindow_Error", resourceCulture);
             }
         }
         

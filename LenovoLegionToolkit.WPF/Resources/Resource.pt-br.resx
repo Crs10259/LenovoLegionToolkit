@@ -1316,6 +1316,15 @@ Requer reinicialização.</value>
   <data name="TryAgain" xml:space="preserve">
     <value>Tente Novamente</value>
   </data>
+  <data name="UnexpectedException_ExitPrompt" xml:space="preserve">
+    <value>Would you like to exit the application?</value>
+  </data>
+  <data name="UnexpectedException_Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="UnexpectedException_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <data name="UnexpectedException" xml:space="preserve">
     <value>Ocorreu uma exceção inesperada:
 {0}</value>

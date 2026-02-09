@@ -2432,6 +2432,15 @@ It won't affect other full screen windows, but you will not be able to click on 
   <data name="SystemBeautification_WindowsBeautification_Title" xml:space="preserve">
     <value>Embellissement Windows</value>
   </data>
+  <data name="UnexpectedException_ExitPrompt" xml:space="preserve">
+    <value>Would you like to exit the application?</value>
+  </data>
+  <data name="UnexpectedException_Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="UnexpectedException_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
   <data name="UnexpectedException" xml:space="preserve">
     <value>Unexpected exception occurred:
 {0}</value>
