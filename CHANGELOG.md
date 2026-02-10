@@ -91,10 +91,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Simplified plugin categorization logic: plugins directly under the root `plugins` directory are treated as remote, while those in any other subdirectory (e.g., `local`) are treated as local / 进一步简化插件分类逻辑：根 `plugins` 目录下的插件视为远程，而位于任何其他子目录（如 `local`）下的插件则视为本地
 - Fully localized the plugin management interface, including update status, tooltips, and action buttons / 插件管理界面现已全面支持多语言，包括更新状态、工具提示和操作按钮
 - 优化设置界面的 UI 切换动画，统一动画参数体系（时长、缓动函数等），并默认开启高性能动画效果 / Optimized UI transition animations in Settings, unified animation parameters (duration, easing, etc.), and enabled high-performance animations by default
+- 调慢设置页面的切换动画速度，与其他界面保持一致 / Slowed down Settings page transition animation speed to be consistent with other pages
 - 修复系统优化界面的布局列索引错误并限制其最大宽度，防止内容溢出遮挡左侧区域 / Fixed layout column index error and restricted maximum width of the details panel in Windows Optimization to prevent content from obscuring the left-side area
 - 增加系统优化界面的选择状态和模式记忆功能 / Added persistence for selection state and page mode in Windows Optimization
 - Enhanced plugin build system for better dependency management / 增强插件构建系统，改善依赖项管理
 - Improved resource handling and localization for multi-language support / 提升资源管理和本地化，支持多语言
+- 补全冷门语言翻译：添加 Driver Download、Extensions、Plugin Extensions 等缺失翻译 / Added missing translations for less common languages: Driver Download, Extensions, Plugin Extensions, etc.
 
 ### Fixed / 修复
 - **Security Fix**: Fixed JSON deserialization vulnerability in AbstractSettings.cs by replacing TypeNameHandling.Auto with TypeNameHandling.None to prevent potential security attacks / 修复 AbstractSettings.cs 中的 JSON 反序列化安全漏洞：将 TypeNameHandling.Auto 替换为 TypeNameHandling.None 以防止潜在的安全攻击
