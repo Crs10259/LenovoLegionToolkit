@@ -47,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Internationalization / 国际化**: Migrated all hardcoded Chinese text in MenuStyleSettingsWindow XAML to resource files / 将 MenuStyleSettingsWindow XAML 中所有硬编码的中文文本迁移到资源文件
 
 ### Improved / 改进
+- Added a dedicated potential issues audit document with prioritized risks and remediation suggestions for plugin update cadence, event lifecycle, and delay abstraction consistency / 新增潜在问题审计文档，针对插件更新节奏、事件生命周期与延迟抽象一致性提供风险分级与修复建议
 - Removed unused LenovoLegionToolkit.Plugins.Common project (was not registered in solution and had no references) / 移除未使用的 LenovoLegionToolkit.Plugins.Common 项目（未在解决方案中注册，也无任何引用）
 - Refactored GPU info reflection code from AbstractSensorsController into new GPUInfoHelper class for better maintainability / 重构 AbstractSensorsController 中的 GPU 信息反射代码到独立的 GPUInfoHelper 类，提升可维护性
 - Refactored GodModeControllerV1 to use dictionary + loop pattern instead of repetitive try-catch blocks / 重构 GodModeControllerV1，使用字典+循环模式替代重复的 try-catch 代码块
