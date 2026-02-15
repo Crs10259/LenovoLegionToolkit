@@ -38,6 +38,11 @@ jobs:
       fail-fast: false
     steps:
       - uses: actions/checkout@v4
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ci-build-output
+          path: .
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
@@ -54,6 +59,11 @@ jobs:
     if: ${{ always() }}
     steps:
       - uses: actions/checkout@v4
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ci-build-output
+          path: .
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
